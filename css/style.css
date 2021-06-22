@@ -1,0 +1,71 @@
+.icons-container {
+    background: rgb(208, 228, 177);
+}
+
+nav .title {
+    color: rgb(60, 172, 209);
+    font-size: 30px;
+}
+
+nav .filter-section{
+    color: white;
+    background-color: rgb(78, 193, 231);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-card {
+    flex-basis: calc(100% / 5); 
+    max-width: calc(100% / 5); 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+
+.icon-card-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(142, 220, 240);
+    padding: 15px;
+    text-align: center;
+    border: 1px rgb(102, 100, 100) solid;
+    border-radius: 40px;
+    
+    
+}
+
+.icon-card-inner:hover{
+    border: 2px solid green;
+}
+
+.icon-card-inner .icon {
+    width: 100%;
+    font-size: 38px;
+}
+
+.icon-card-inner .name {
+    text-transform: uppercase;
+    font-size: 10px;
+    
+}
+
+
+
+/* MILESTONE 2  */
+.icon.animal {
+    color: rgb(0, 0, 255);
+}
+
+.icon.vegetable {
+    color: rgb(230, 179, 10);
+}
+
+.icon.user {
+    color: rgb(90, 2, 90);
+}
+/* END MILESTONE 2  */
